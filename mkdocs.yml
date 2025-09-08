@@ -43,11 +43,10 @@ plugins:
         - locale: ja
           name: 日本語
           build: true
-      nav_translations:
-        ja:
-          Developer Docs: 開発者向けドキュメント
-          User Docs: ユーザー向けドキュメント
-          Overview: 概要
+          nav_translations:
+            Developer Docs: 開発者向けドキュメント
+            User Docs: ユーザー向けドキュメント
+            Overview: 概要
   - git-revision-date-localized:
       type: timeago
       enable_creation_date: true

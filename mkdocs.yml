@@ -1,5 +1,5 @@
 
-site_name: My Docs
+site_name: Sample Documentation Site
 theme:
   name: material
   features:
@@ -7,6 +7,19 @@ theme:
     - navigation.sections
     - content.code.copy
   language: en
+  palette:
+    - scheme: slate
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
 
 # Define top-level tabs (per-language content is resolved by i18n)
 nav:
@@ -30,7 +43,8 @@ plugins:
         - locale: ja
           name: 日本語
           build: true
-          nav_translations:
-            Developer Docs: 開発者向けドキュメント
-            User Docs: ユーザー向けドキュメント
-            Overview: 概要
+      nav_translations:
+        ja:
+          Developer Docs: 開発者向けドキュメント
+          User Docs: ユーザー向けドキュメント
+          Overview: 概要

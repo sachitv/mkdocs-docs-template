@@ -1,0 +1,35 @@
+
+site_name: My Docs
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+  language: en
+
+# Define top-level tabs (per-language content is resolved by i18n)
+nav:
+  - Developer Docs:
+    - Overview: developer-docs/index.md
+  - User Docs:
+    - Overview: user-docs/index.md
+
+plugins:
+  - search
+  - mermaid2
+  - i18n:
+      default_language: en
+      docs_structure: folder
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+        - locale: ja
+          name: 日本語
+          build: true
+      nav_translations:
+        ja:
+          Developer Docs: 開発者向けドキュメント
+          User Docs: ユーザー向けドキュメント

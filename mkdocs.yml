@@ -1,5 +1,6 @@
 
 site_name: Sample Documentation Site
+repo_url: https://github.com/squidfunk/mkdocs-material
 theme:
   name: material
   features:

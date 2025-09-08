@@ -26,6 +26,7 @@ theme:
 nav:
   - Developer Docs:
     - Overview: developer-docs/index.md
+    - TypeScript Quickstart: developer-docs/typescript.md
   - User Docs:
     - Overview: user-docs/index.md
 
@@ -48,7 +49,16 @@ plugins:
             Developer Docs: 開発者向けドキュメント
             User Docs: ユーザー向けドキュメント
             Overview: 概要
+            TypeScript Quickstart: TypeScript クイックスタート
   - git-revision-date-localized:
       type: timeago
       enable_creation_date: true
       fallback_to_build_date: true
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences

@@ -396,6 +396,7 @@ dependencies = [
     { name = "mkdocs-material" },
     { name = "mkdocs-mermaid2-plugin" },
     { name = "mkdocs-static-i18n" },
+    { name = "pymdown-extensions" },
 ]
 
 [package.metadata]
@@ -406,6 +407,7 @@ requires-dist = [
     { name = "mkdocs-material", specifier = ">=9.5.29" },
     { name = "mkdocs-mermaid2-plugin", specifier = ">=1.1.1" },
     { name = "mkdocs-static-i18n", specifier = ">=1.2.0" },
+    { name = "pymdown-extensions", specifier = ">=10.8.1" },
 ]
 
 [[package]]

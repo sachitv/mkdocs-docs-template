@@ -11,4 +11,5 @@ dependencies = [
     "cairosvg>=2.7.1",
     "mkdocs-static-i18n>=1.2.0",
     "mkdocs-git-revision-date-localized-plugin>=1.2.0",
+    "pymdown-extensions>=10.8.1",
 ]

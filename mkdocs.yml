@@ -48,3 +48,7 @@ plugins:
           Developer Docs: 開発者向けドキュメント
           User Docs: ユーザー向けドキュメント
           Overview: 概要
+  - git-revision-date-localized:
+      type: timeago
+      enable_creation_date: true
+      fallback_to_build_date: true

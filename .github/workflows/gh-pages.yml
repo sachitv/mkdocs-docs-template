@@ -3,9 +3,6 @@ name: Deploy MkDocs to Pages
 on:
   push:
     branches: [ "main" ]
-  # Temporary: enable on PRs to test builds before merging
-  pull_request:
-    branches: [ "main" ]
 
 permissions:
   contents: read

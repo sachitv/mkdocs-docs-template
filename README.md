@@ -2,7 +2,9 @@
 
 Simple MkDocs site with Material theme, dark mode, multilingual docs (English/Japanese), Mermaid diagrams, and Git-based "Last updated".
 
-[![Try it out →](https://img.shields.io/badge/-Try%20it%20out%20%E2%86%92-0ea5e9?style=for-the-badge&labelColor=0ea5e9)](https://mkdocs-docs-template.pages.dev/)
+[![GitHub Pages](https://img.shields.io/badge/-GitHub%20Pages-181717?style=for-the-badge&logo=github&logoColor=white)](https://sachitv.github.io/mkdocs-docs-template/)
+[![Cloudflare Pages](https://img.shields.io/badge/-Cloudflare%20Pages-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://mkdocs-docs-template.pages.dev/)
+[![Netlify](https://img.shields.io/badge/-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://mkdocs-docs-template.netlify.app/)
 
 ## Prerequisites
 

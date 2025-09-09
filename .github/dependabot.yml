@@ -1,0 +1,22 @@
+version: 2
+updates:
+  # Keep GitHub Actions up to date
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: "deps"
+      include: "scope"
+
+  # Keep uv-managed Python dependencies up to date
+  - package-ecosystem: uv
+    directory: "/"
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: "deps"
+      include: "scope"
+    # Only bump direct dependencies defined in pyproject
+    allow:
+      - dependency-type: direct

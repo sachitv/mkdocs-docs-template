@@ -24,6 +24,7 @@ theme:
 
 # Define top-level tabs (per-language content is resolved by i18n)
 nav:
+  - Home: index.md
   - Developer Docs:
     - Overview: developer-docs/index.md
     - TypeScript Quickstart: developer-docs/typescript.md
@@ -34,7 +35,6 @@ plugins:
   - search
   - mermaid2
   - i18n:
-      default_language: en
       docs_structure: folder
       reconfigure_material: true
       languages:
@@ -50,6 +50,7 @@ plugins:
             User Docs: ユーザー向けドキュメント
             Overview: 概要
             TypeScript Quickstart: TypeScript クイックスタート
+            Home: ホーム
   - git-revision-date-localized:
       type: timeago
       enable_creation_date: true
@@ -61,4 +62,8 @@ markdown_extensions:
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid

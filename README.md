@@ -1,10 +1,8 @@
 # mkdocs-example
 
 Simple MkDocs site with Material theme, dark mode, multilingual docs (English/Japanese), Mermaid diagrams, and Git-based "Last updated".
- 
-<a href="https://mkdocs-docs-template.pages.dev/" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:10px 16px;background:#0ea5e9;color:#fff;border-radius:6px;text-decoration:none;font-weight:600;">
-  Try it out →
-</a>
+
+[![Try it out →](https://img.shields.io/badge/-Try%20it%20out%20%E2%86%92-0ea5e9?style=for-the-badge&labelColor=0ea5e9)](https://mkdocs-docs-template.pages.dev/)
 
 ## Prerequisites
 

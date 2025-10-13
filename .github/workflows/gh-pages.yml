@@ -23,7 +23,7 @@ jobs:
           fetch-depth: 0  # needed for git revision date plugin
 
       - name: Set up uv (Python + resolver)
-        uses: astral-sh/setup-uv@v6
+        uses: astral-sh/setup-uv@v7
         with:
           python-version: "3.11"
 
